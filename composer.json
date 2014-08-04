@@ -1,0 +1,19 @@
+{
+    "name": "jfusion/api",
+    "type": "jfusion-package",
+    "description": "JFusion Api package",
+    "keywords": ["Jfusion", "framework", "api"],
+    "homepage": "https://github.com/jfusion-framework/api",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.10",
+        "jfusion/user": "~1.0",
+        "joomla/event": "~1.0"
+    },
+    "target-dir": "JFusion/Api",
+    "autoload": {
+        "psr-0": {
+            "JFusion\\Api\\": "src/"
+        }
+    }
+}
