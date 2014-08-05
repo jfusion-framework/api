@@ -7,16 +7,11 @@
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.10",
-        "jfusion/core": ">=0.1",
-        "jfusion/user": ">=0.1",
-        "jfusion/plugin": ">=0.1",
-        "joomla/event": "~1.0"
+        "jfusion/core": "~1.0"
     },
-    "target-dir": "JFusion/Api",
     "autoload": {
         "psr-0": {
             "JFusion\\Api\\": "src/"
         }
-    },
-    "minimum-stability" : "dev"
+    }
 }
