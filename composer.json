@@ -7,7 +7,9 @@
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.10",
+        "jfusion/core": "~1.0",
         "jfusion/user": "~1.0",
+        "jfusion/plugin": "~1.0",
         "joomla/event": "~1.0"
     },
     "target-dir": "JFusion/Api",

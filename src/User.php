@@ -1,5 +1,5 @@
 <?php namespace JFusion\Api;
-use JFusion\Factory;
+use JFusion\Core\Factory;
 use JFusion\User\Userinfo;
 
 /**
